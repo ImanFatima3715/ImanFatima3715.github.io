@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Cutlery Hub</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+
+   <!-- Home Page -->
+<div id="home-page">
+    <!-- Background Images -->
+    <div class="background-slider">
+        <img src="i1.jpeg">
+        <img src="i2.jpeg">
+        <img src="f1.jpeg">
+     </div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Premium Cutlery Hub</h1>
+        <div class="header-nav">
+            <a href="#" onclick="showAboutUs()">About Us</a>
+            <a href="#" onclick="showContact()">Contact Us</a>
+            <a href="#" onclick="showProducts()">Products</a>
+            <a href="#" onclick="showThankYou()">More</a> 
+        </div>
+    </div>
+
+    <!-- Welcome Container with Login and Sign Up buttons -->
+    <div class="welcome-container">
+        <h1>Welcome to Premium Cutlery Hub</h1>
+        <button onclick="showLogin()">Login</button>
+        <button onclick="showSignup()">Sign Up</button>
+    </div>
+</div>
+
+    <!-- About Us Page -->
+    <div id="about-us-page" style="display:none;">
+        <!-- Image button to go back to Home -->
+        <img src="h3.JPG" class="image-button" alt="Go to Home" onclick="showHome()">
+        <!-- Header -->  
+        <div class="header">
+            <h1>Premium Cutlery Hub</h1>
+            <div class="header-nav">
+                <a href="#" onclick="showAboutUs()">About Us</a>
+                <a href="#" onclick="showContact()">Contact Us</a>
+                <a href="#" onclick="showProducts()">Products</a>
+                <a href="#" onclick="showThankYou()">More</a> 
+            </div>
+        </div>
+        <!-- Main Heading -->
+        <h1 class="page-heading">About Us</h1>
+        <!-- About Us Container -->
+        <div class="about-us-container">
+            <p>
+                Welcome to Premium Cutlery Hub, your trusted source for premium cutlery that blends tradition with innovation.
+                For years, we’ve crafted durable, elegant cutlery designed for both homes and professional kitchens.
+                Our pieces combine functionality and style, making every meal a special experience.
+            </p>
+            <p>
+                At Premium Cutlery Hub, we believe cutlery is more than just tools—it’s about creating memorable moments.
+                Rooted in excellence, we deliver sophisticated, practical designs that reflect our commitment to quality.
+                Discover the perfect balance of tradition and innovation with Premium Cutlery Hub, where every piece inspires confidence and joy.
+            </p>
+        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2023 Premium Cutlery Hub. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Contact Us Page -->
+    <div id="contact-us-page" style="display:none;">
+        <!-- Image button to go back to Home -->
+        <img src="h3.JPG" class="image-button" alt="Go to Home" onclick="showHome()">
+        <!-- Header -->
+        <div class="header">
+            <h1>Premium Cutlery Hub</h1>
+            <div class="header-nav">
+                <a href="#" onclick="showAboutUs()">About Us</a>
+                <a href="#" onclick="showContact()">Contact Us</a>
+                <a href="#" onclick="showProducts()">Products</a>
+                <a href="#" onclick="showThankYou()">More</a> 
+            </div>
+        </div>
+        <!-- Main Heading -->
+        <h1 class="page-heading">Contact Us</h1>
+        <!-- Contact Us Container -->
+        <div class="contact-us-container">
+            <p>For inquiries, please email us at info@premiumcutleryhub.com</p>
+            <p>Email: info@premiumcutleryhub.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Address: 123 Dining Lane, Suite 101, Culinary City, CA 90210</p> 
+            <p>Stay connected with us on social media for the latest updates, tips, and inspirations:</p>
+            <p>Instagram: @PremiumCutleryHub</p>
+            <p>Facebook: /PremiumCutleryHub</p>
+            <p>Pinterest: /PremiumCutleryHub</p>
+        </div>
+    </div>
+
+   <!-- Products Page -->
+   <div id="products-page" style="display:none;">
+    <!-- Image button to go back to Home -->
+    <img src="h3.JPG" class="image-button" alt="Go to Home" onclick="showHome()">
+    <!--header-->
+    <div class="header">
+        <h1>Premium Cutlery Hub</h1>
+        <div class="header-nav">
+            <a href="#" onclick="showAboutUs()">About Us</a>
+            <a href="#" onclick="showContact()">Contact Us</a>
+            <a href="#" onclick="showProducts()">Products</a>
+            <a href="#" onclick="showThankYou()">More</a> 
+        </div>
+    </div>
+    <!-- Main Heading -->
+    <h1 class="page-heading">Our Products</h1>
+    <!-- Product Gallery -->
+    <div class="product-gallery">
+        <div class="product">
+            <img src="c1.jpg" alt="Product 1">
+            <p>Product 1</p>
+        </div>
+        <div class="product">
+            <img src="c2.jpg" alt="Product 2">
+            <p>Product 2</p>
+        </div>
+        <div class="product">
+            <img src="c3.jpg" alt="Product 3">
+            <p>Product 3</p>
+        </div>
+        <div class="product">
+            <img src="d1.jpeg" alt="Product 4">
+            <p>Product 4</p>
+        </div>
+        <div class="product">
+            <img src="c5.jpg" alt="Product 5">
+            <p>Product 5</p>
+        </div>
+        <div class="product">
+            <img src="d5.jpeg" alt="Product 6">
+            <p>Product 6</p>
+        </div>
+        <div class="product">
+            <img src="d2.jpeg" alt="Product 7">
+            <p>Product 7</p>
+        </div>
+        <div class="product">
+            <img src="d3.jpeg" alt="Product 8">
+            <p>Product 8</p>
+        </div>
+        <div class="product">
+            <img src="d4.jpeg" alt="Product 9">
+            <p>Product 9</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Login Page -->
+    <div class="container no-header" id="login-container" style="display:none;">
+        <img src="h3.JPG" class="image-button" alt="Go to Home" onclick="showHome()">
+        <!-- Header -->
+        <div class="header">
+            <h1>Premium Cutlery Hub</h1>
+            <div class="header-nav">
+                <a href="#" onclick="showHome()">Home</a>
+                <a href="#" onclick="showAboutUs()">About Us</a>
+                <a href="#" onclick="showContact()">Contact Us</a>
+                <a href="#" onclick="showProducts()">Products</a>
+                <a href="#" onclick="showThankYou()">More</a> 
+            </div>
+        </div>
+        <!-- Login Form Container -->
+        <div class="form-container">
+            <h1>Login</h1>
+            <form action="#" method="post" onsubmit="return handleLogin(event)">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <input type="submit" value="Login">
+            </form>
+            <p class="toggle-link">Don't have an account? <a href="#" onclick="showSignup()" style="color:white;">Sign Up</a></p>
+        </div>
+    </div> <!-- Closing div for login-container -->
+
+    <!-- Sign Up Page -->
+    <div class="container no-header" id="signup-container" style="display:none;">
+        <img src="h3.JPG" class="image-button" alt="Go to Home" onclick="showHome()">
+        <!-- Header -->
+        <div class="header">
+            <h1>Premium Cutlery Hub</h1>
+            <div class="header-nav">
+                <a href="#" onclick="showHome()">Home</a>
+                <a href="#" onclick="showAboutUs()">About Us</a>
+                <a href="#" onclick="showContact()">Contact Us</a>
+                <a href="#" onclick="showProducts()">Products</a>
+                <a href="#" onclick="showThankYou()">More</a> 
+            </div>
+        </div>
+        <!-- Sign Up Form Container -->
+        <div class="form-container">
+            <h1>Sign Up</h1>
+            <form action="#" method="post" onsubmit="return handleSignup(event)">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="username" required>
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="password" required>
+                <input type="submit" value="Sign Up">
+            </form>
+            <p class="toggle-link">Already have an account? <a href="#" onclick="showLogin()" style="color:white;">Login</a></p>
+        </div>
+    </div> <!-- Closing div for signup-container -->
+
+   <!-- Thank You Page -->
+   <div id="thank-you-page" style="display:none;">
+    <!-- Image button to go back to Home -->
+    <img src="h3.JPG" class="image-button" alt="Go to Home" onclick="showHome()">
+    
+    <!-- Thank You Message -->
+    <div class="thank-you-container">
+        <h1>Thank You for Visiting Our Website!</h1>
+        <p>
+            We appreciate your interest in Premium Cutlery Hub. Our mission is to provide you with the finest cutlery that combines tradition and innovation. Feel free to explore our products and reach out to us for any inquiries.
+        </p>
+        <!-- Video -->
+        <video autoplay loop muted class="thank-you-video">
+            <source src="Website.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     </div>
+</div> <!-- Closing div for thank-you-page -->
+
+    <script src="website.js"></script>
+</body>
+</html>
